@@ -28,7 +28,7 @@ class MysqlTool {
     constructor() {
         this.host = '127.0.0.1';
         this.user = 'root';
-        this.password = 'yuxiao1129933675';
+        this.password = 'root';
         this.database = 'erpcasbin';
         this.port = 3306;
         this.pool = null;
@@ -76,7 +76,7 @@ class MysqlTool {
 }
 
 const mysqlTool = new MysqlTool();
-mysqlTool.connect(host = '39.99.140.176', user = 'root', password = 'yuxiao1129933675', database ='erpcasbin',port=3306);
+mysqlTool.connect(host = '127.0.0.1', user = 'root', password = 'root', database ='erpcasbin',port=3306);
 
 module.exports = {
     mysqlTool

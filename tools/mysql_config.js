@@ -1,6 +1,6 @@
 const mysqlconfig = {
     user:'root',
-    password:'yuxiao1129933675',
+    password:'root',
     database:'erpcasbin',
     host:'127.0.0.1',
     port: 3306
