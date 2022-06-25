@@ -15,7 +15,7 @@
     "body-parser": "^1.19.0",
     "casbin-sequelize-adapter": "^2.0.0",
     "jsonwebtoken": "^8.5.1",
-    "jsrsasign": "^8.0.12",
+    "jsrsasign": "^10.5.25",
     "koa": "^2.7.0",
     "koa-authz": "^3.0.0",
     "koa-body": "^4.1.1",
